@@ -7,17 +7,6 @@
 <meta name="date" content="28-11-2024">
 <meta name="description" content="Personal page">
 <title>Personal Page</title>
- <form name="contact" netlify>
-  <p>
-    <label>Name <input type="text" name="name" /></label>
-  </p>
-  <p>
-    <label>Email <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
 </head>
 <body>
     <h1><a id="start">Hello world,I am Miguel and this is my personal page!</a></h1>
