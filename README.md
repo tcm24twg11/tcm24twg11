@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="css.css">
 </head>
 <body>
-    <h1><a id="start">Hello world,I am Miguel and this is my personal page!</a></h1>
+    <h1><a id="start">Hello world,I am Miguel and this is my personal page! Hipiiiiii</a></h1>
     <hr>
     <div id="main-layout">
     <aside id="sidebar">
