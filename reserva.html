@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Reserva uma Viagem</h1>
+        <p>Descubra a Cidade Eterna com a Pink Ravioli</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="roma.html">Roma</a></li>
+            <li><a href="florenca.html">Florença</a></li>
+            <li><a href="veneza.html">Veneza</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Reserve a sua viagem</h2>
+            <form action="book.php" method="post">
+                <label for="nome-reserva">Nome Completo:</label>
+                <input type="text" id="nome-reserva" name="nome_reserva" required>
+
+                <label for="telefone">Contacto Telefónico:</label>
+                <input type="tel" id="telefone" name="telefone" pattern="[0-9]{9}" required>
+
+                <label for="email-reserva">Email:</label>
+                <input type="email" id="email-reserva" name="email_reserva" required>
+
+                <label for="destino">Destino:</label>
+                <select id="destino" name="destino" required>
+                    <option value="roma">Roma</option>
+                    <option value="florenca">Florença</option>
+                    <option value="veneza">Veneza</option>
+                </select>
+
+                <label for="data">Data de Partida:</label>
+                <input type="date" id="data" name="data" required>
+
+                <label for="pessoas">Número de Pessoas:</label>
+                <input type="number" id="pessoas" name="pessoas" min="1" required>
+
+                <label for="comentarios">Comentários ou Requisitos Especiais:</label>
+                <textarea id="comentarios" name="comentarios" rows="4"
+                    placeholder="Informe-nos sobre necessidades especiais, preferências ou perguntas."></textarea>
+
+                <button type="submit">Reservar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Pink Ravioli &copy; 2025. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
