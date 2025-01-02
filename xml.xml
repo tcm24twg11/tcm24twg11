@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+    <destinos>
+
+        <destino nome="Roma">
+            <descricao>Descubra a Cidade Eterna e seus marcos históricos com a Pink Ravioli.</descricao>
+            <pacote>
+                <nome>Plano de Viagem: Roma</nome>
+                <detalhes>
+                    <item>3 noites em hotel 4 estrelas com pequeno-almoço</item>
+                    <item>Visitas guiadas em português aos principais pontos turísticos</item>
+                    <item>Transporte entre os pontos turísticos</item>
+                    <item>Ingressos para o Coliseu, Fórum Romano e Museu do Vaticano</item>
+                    <item>Visita à Capela Sistina e ao Panteão</item>
+                </detalhes>
+                <preco>850</preco>
+                <link_reserva>reserva.html</link_reserva>
+                <imagens>
+                    <imagem>coliseu-roma.jpg</imagem>
+                    <imagem>forum-romano.jpg</imagem>
+                </imagens>
+            </pacote>
+        </destino>
+
+        <destino nome="Veneza">
+            <descricao>Explore os canais e a magia da cidade dos gondoleiros com a Pink Ravioli.</descricao>
+            <pacote>
+                <nome>Plano de Viagem: Veneza</nome>
+                <detalhes>
+                    <item>3 noites em hotel 4 estrelas com pequeno-almoço</item>
+                    <item>Passeio de gôndola pelos famosos canais de Veneza</item>
+                    <item>Visitas guiadas em português aos principais pontos turísticos</item>
+                    <item>Transporte entre os pontos turísticos de barco</item>
+                    <item>Ingressos para a Basílica de São Marcos e o Palácio Ducal</item>
+                    <item>Exploração da Praça de São Marcos e Ponte Rialto</item>
+                </detalhes>
+                <preco>900</preco>
+                <link_reserva>reserva.html</link_reserva>
+                <imagens>
+                    <imagem>imagem-veneza.jpg</imagem>
+                    <imagem>gondola-veneza.jpg</imagem>
+                </imagens>
+            </pacote>
+        </destino>
+
+        <destino nome="Florença">
+            <descricao>Explore o berço do Renascimento com arte e história em Florença.</descricao>
+            <pacote>
+                <nome>Plano de Viagem: Florença</nome>
+                <detalhes>
+                    <item>3 noites em hotel 4 estrelas com pequeno-almoço</item>
+                    <item>Visitas guiadas ao Museu Uffizi e Galeria da Academia</item>
+                    <item>Transporte para as principais atrações turísticas</item>
+                    <item>Ingressos para a Catedral de Santa Maria del Fiore e Ponte Vecchio</item>
+                    <item>Exploração dos Jardins Boboli e do Palazzo Pitti</item>
+                </detalhes>
+                <preco>850</preco>
+                <link_reserva>reserva.html</link_reserva>
+                <imagens>
+                    <imagem>imagem-florenca.jpg</imagem>
+                    <imagem>catedral-florenca.jpg</imagem>
+                </imagens>
+            </pacote>
+        </destino>
+
+        <destino nome="Nápoles">
+            <descricao>Conheça a cidade vibrante e a costa amalfitana com a Pink Ravioli.</descricao>
+            <pacote>
+                <nome>Plano de Viagem: Nápoles</nome>
+                <detalhes>
+                    <item>3 noites em hotel 4 estrelas com pequeno-almoço</item>
+                    <item>Visita ao Museu Arqueológico de Nápoles</item>
+                    <item>Tour ao Monte Vesúvio e Pompeia</item>
+                    <item>Transporte para a Costa Amalfitana</item>
+                    <item>Ingressos para a Catedral de Nápoles e o Palácio Real</item>
+                </detalhes>
+                <preco>820</preco>
+                <link_reserva>reserva.html</link_reserva>
+                <imagens>
+                    <imagem>napoles-1.jpg</imagem>
+                    <imagem>vesuvio.jpg</imagem>
+                </imagens>
+            </pacote>
+        </destino>
+    </destinos>
+</site>
