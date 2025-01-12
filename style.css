@@ -60,7 +60,7 @@ nav ul li a:hover {
     color: #ff80ab;
 }
 
-dl > dh {
+dl>dh {
     color: #ff80ab;
 }
 
@@ -135,7 +135,12 @@ section p {
     background: #ff80ab;
 }
 
-#planoroma, #planoforum, #planoveneza, #planogondola, #planoflorenca, #planogaleria {
+#planoroma,
+#planoforum,
+#planoveneza,
+#planogondola,
+#planoflorenca,
+#planogaleria {
     display: flex;
     align-items: flex-start;
     gap: 15px;
@@ -144,7 +149,12 @@ section p {
     line-height: 1.6;
 }
 
-#planoroma::before, #planoforum::before, #planoveneza::before, #planogondola::before, #planoflorenca::before, #planogaleria::before {
+#planoroma::before,
+#planoforum::before,
+#planoveneza::before,
+#planogondola::before,
+#planoflorenca::before,
+#planogaleria::before {
     content: "";
     display: block;
     width: 360px;
@@ -154,12 +164,31 @@ section p {
     border-radius: 8px;
 }
 
-#planoroma::before { background-image: url('coliseu-roma.png'); }
-#planoforum::before { background-image: url('forum-romano.png'); }
-#planoveneza::before { background-image: url('imagem-veneza.png'); }
-#planogondola::before { background-image: url('gondola-veneza.png'); }
-#planoflorenca::before { background-image: url('florenca-piazza-del-duomo.png'); }
-#planogaleria::before { background-image: url('galeria-uffizi.png'); width: 360px; height: 360px; }
+#planoroma::before {
+    background-image: url('coliseu-roma.png');
+}
+
+#planoforum::before {
+    background-image: url('forum-romano.png');
+}
+
+#planoveneza::before {
+    background-image: url('imagem-veneza.png');
+}
+
+#planogondola::before {
+    background-image: url('gondola-veneza.png');
+}
+
+#planoflorenca::before {
+    background-image: url('florenca-piazza-del-duomo.png');
+}
+
+#planogaleria::before {
+    background-image: url('galeria-uffizi.png');
+    width: 360px;
+    height: 360px;
+}
 
 #copy {
     text-align: center;
@@ -326,7 +355,7 @@ footer p {
         max-width: 1000px;
         padding: 20px;
         margin-top: 225px;
-        
+
     }
 
     footer {
