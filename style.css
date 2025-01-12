@@ -12,7 +12,7 @@ body {
 
 header {
     color: white;
-    padding: 20px;
+    padding: 15px;
     position: fixed;
     top: 0;
     width: 100%;
@@ -22,18 +22,18 @@ header {
 
 nav {
     position: fixed;
-    top: 150px;
+    margin-top: -75px;
     width: 100%;
 }
 
 header h1 {
-    font-size: 40px;
-    margin-bottom: 10px;
+    font-size: 33px;
+    margin-bottom: 5px;
     font-family: 'Impact', sans-serif;
 }
 
 header p {
-    font-size: 16px;
+    font-size: 14px;
     margin: 0;
 }
 
@@ -41,7 +41,7 @@ nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    padding: 15px 0;
+    padding: 10px 0;
     background-color: rgb(0, 0, 0, 0.75);
 }
 
@@ -60,10 +60,21 @@ nav ul li a:hover {
     color: #ff80ab;
 }
 
+dl > dh {
+    color: #ff80ab;
+}
+
+iframe {
+    width: 100%;
+    max-width: 100%;
+    border: none;
+    border-radius: 8px;
+}
+
 main {
     padding: 20px;
     max-width: 1200px;
-    margin-top: 250px;
+    margin-top: 190px;
 }
 
 main section {
@@ -100,12 +111,6 @@ section p {
     border-radius: 8px;
     padding: 15px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.plano:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .plano h3 {
@@ -114,7 +119,8 @@ section p {
     margin-bottom: 10px;
 }
 
-.plano a, .button {
+.plano a,
+.button {
     display: inline-block;
     margin-top: 10px;
     color: #fff;
@@ -127,6 +133,38 @@ section p {
 
 .plano a:hover {
     background: #ff80ab;
+}
+
+#detalhes-plano, #passeio, #planoveneza, #planogondola, #florenca, #galeria {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#detalhes-plano::before, #passeio::before, #planoveneza::before, #planogondola::before, #florenca::before, #galeria::before {
+    content: "";
+    display: block;
+    width: 360px;
+    height: 240px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+}
+
+#detalhes-plano::before { background-image: url('coliseu-roma.png'); }
+#passeio::before { background-image: url('forum-romano.png'); }
+#planoveneza::before { background-image: url('imagem-veneza.png'); }
+#planogondola::before { background-image: url('gondola-veneza.png'); }
+#florenca::before { background-image: url('florenca-piazza-del-duomo.png'); }
+#galeria::before { background-image: url('galeria-uffizi.png'); width: 360px; height: 360px; }
+
+#copy {
+    text-align: center;
+    position: relative;
+    margin-top: 333px;
 }
 
 form {
@@ -171,7 +209,6 @@ form button:hover {
     background: #ff80ab;
 }
 
-/* Tabelas */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -187,22 +224,16 @@ table td {
 
 table thead {
     background: #ff4081;
-    /* Rosa médio */
     color: #fff;
-    /* Branco */
 }
 
 table tfoot {
     background: #fce4ec;
-    /* Rosa claro */
 }
 
-/* Rodapé */
 footer {
     background: rgba(0, 0, 0, 0.75);
-    /* Preto */
     color: #fff;
-    /* Branco */
     text-align: center;
     padding: 20px;
 }
@@ -211,11 +242,55 @@ footer p {
     margin: 5px 0;
 }
 
+@media (min-width: 768px) {
+    header h1 {
+        font-size: 45px;
+    }
+
+    nav {
+        margin-top: -71px;
+    }
+
+    nav ul {
+        padding: 12px 0;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    section h2 {
+        font-size: 24px;
+    }
+
+    .planos {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .plano {
+        flex: 1;
+        min-width: 280px;
+    }
+
+    main {
+        padding: 20px;
+        margin-top: 215px;
+    }
+}
+
 @media (min-width: 1024px) {
     body {
         text-align: center;
-        height: 100vh;
-        margin: 0;
+    }
+
+    nav {
+        margin-top: 144px;
+    }
+
+    nav ul {
+        padding: 14px 0;
     }
 
     main {
@@ -225,7 +300,8 @@ footer p {
         border-radius: 10px;
         max-width: 1000px;
         padding: 20px;
-        vertical-align: middle;
+        margin-top: 225px;
+        
     }
 
     footer {

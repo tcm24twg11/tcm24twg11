@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<agencia xmlns="http://www.agencia.org"
+    xmlns:tns="http://www.w3.org/2001/XMLSchema-instance"
+    schemaLocation="http://www.agencia.org agencia.xsd">
+
+    <nome>Pink Ravioli</nome>
+    <descricao>A sua porta para viagens inesquecíveis pela Itália!</descricao>
+    <email>raviolipink@gmail.com</email>
+    <telefone>+351 963 456 789</telefone>
+
+    <destinos>
+        <destino>
+            <nome>Roma</nome>
+            <descricao>A Cidade Eterna oferece uma mistura única de história antiga e vida moderna.
+                Visite o Coliseu, o Fórum Romano, a Capela Sistina e o Panteão.</descricao>
+            <preco>1200.00</preco>
+            <monumento>Coliseu</monumento>
+            <monumento>Fórum Romano</monumento>
+            <monumento>Capela Sistina</monumento>
+            <monumento>Panteão</monumento>
+            <atv_exclusivas>
+                <atividade>Visita guiada ao Coliseu</atividade>
+                <atividade>Jantar em restaurante típico romano</atividade>
+                <atividade>Tour pelos Museus Vaticanos</atividade>
+                <atividade>Visita ao Panteão</atividade>
+            </atv_exclusivas>
+            <detalhes_plano>
+                <item>3 noites em hotel 4 estrelas com pequeno-almoço</item>
+                <item>Visitas guiadas em português aos principais pontos turísticos</item>
+                <item>Transporte entre os pontos turísticos</item>
+                <item>Ingressos para o Coliseu, Fórum Romano e Museu do Vaticano</item>
+                <item>Visita à Capela Sistina e ao Panteão</item>
+            </detalhes_plano>
+        </destino>
+
+        <destino>
+            <nome>Florença</nome>
+            <descricao>Berço do Renascimento, Florença encanta com a sua arte, arquitetura e
+                atmosfera romântica. Explore a Galeria Uffizi e a Ponte Vecchio.</descricao>
+            <preco>1400.00</preco>
+            <monumento>Galeria Uffizi</monumento>
+            <monumento>Ponte Vecchio</monumento>
+            <monumento>Catedral de Santa Maria del Fiore</monumento>
+            <atv_exclusivas>
+                <atividade>Passeio de bicicleta pelos campos de vinhedos da Toscana</atividade>
+                <atividade>Jantar gourmet com vista para o Arno</atividade>
+            </atv_exclusivas>
+            <detalhes_plano>
+                <item>3 noites em hotel 4 estrelas com pequeno-almoço</item>
+                <item>Visita guiada em português à Galeria Uffizi</item>
+                <item>Entrada para a Catedral de Santa Maria del Fiore e subida à cúpula de
+                    Brunelleschi</item>
+                <item>Transporte entre os pontos turísticos</item>
+                <item>Visita ao Palácio Pitti e aos Jardins Boboli</item>
+            </detalhes_plano>
+        </destino>
+
+        <destino>
+            <nome>Veneza</nome>
+            <descricao>Com os seus canais românticos e arquitetura única, Veneza é um destino de
+                sonho. Visite a Praça de São Marcos e faça um passeio de gôndola.</descricao>
+            <preco>1500.00</preco>
+            <monumento>Praça de São Marcos</monumento>
+            <monumento>Ponte de Rialto</monumento>
+            <atv_exclusivas>
+                <atividade>Passeio de gôndola pelos canais de Veneza</atividade>
+                <atividade>Visita privada às ilhas de Murano e Burano</atividade>
+                <atividade>Degustação de vinhos nas vinícolas locais</atividade>
+            </atv_exclusivas>
+            <detalhes_plano>
+                <item>3 noites em hotel 4 estrelas com pequeno-almoço</item>
+                <item>Passeio de gôndola pelos famosos canais de Veneza</item>
+                <item>Visitas guiadas em português aos principais pontos turísticos</item>
+                <item>Transporte entre os pontos turísticos de barco</item>
+                <item>Ingressos para a Basílica de São Marcos e o Palácio Ducal</item>
+                <item>Exploração da Praça de São Marcos e Ponte Rialto</item>
+            </detalhes_plano>
+        </destino>
+
+    </destinos>
+
+    <testemunhos>
+        <testemunho>
+            <cliente>Maria Silva</cliente>
+            <comentario>A viagem para Roma foi incrível! A atenção aos detalhes e os passeios
+                exclusivos fizeram toda a diferença. Recomendo a Pink Ravioli!</comentario>
+        </testemunho>
+        <testemunho>
+            <cliente>João Pereira</cliente>
+            <comentario>Florença foi uma experiência inesquecível. A guia local foi fantástica e as
+                atividades personalizadas tornaram a viagem única.</comentario>
+        </testemunho>
+    </testemunhos>
+
+</agencia>
