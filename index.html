@@ -4,20 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Pink Ravioli - Agência Turística</title>
-
     <link rel="stylesheet" href="style.css">
-
-    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-    <script src="reserva.js"></script>
-
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-</script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init("aph3RPLN3fBu3qbOi");
-   })();
-</script>
 </head>
 
 <body>
@@ -30,7 +17,7 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#destinos">Destinos</a></li>
-                <li><a href="#napoles">Reservas</a></li>
+                <li><a href="#tabela">Reservas</a></li>
             </ul>
         </nav>
     </div>
@@ -122,7 +109,7 @@
                 </article>
                 <article class="plano">
                     <h3>Nápoles</h3>
-                    <p id="napoles">Com a sua rica história e vistas deslumbrantes, Nápoles é um destino inesquecível.
+                    <p>Com a sua rica história e vistas deslumbrantes, Nápoles é um destino inesquecível.
                         Em breve
                         poderá explorar o
                         centro histórico, visitar o Castel dell'Ovo e deliciar-se com a gastronomia napolitana, famosa
@@ -137,23 +124,23 @@
                 <thead>
                     <tr>
                         <th colspan="4">
-                           <h1 id="tabela">Tabela de preços</h1> 
+                            <h1 id="tabela">Tabela de preços</h1>
                         </th>
                     </tr>
                     <tr>
                         <th>Destino</th>
                         <th>Descrição</th>
                         <th>Preço</th>
-                      </tr>
+                    </tr>
                 </thead>
                 <tbody>
-                    
+
                 </tbody>
             </table>
         </section>
         <section>
             <h2>Reserve a sua viagem</h2>
-            <form id="reservaForm" method="post">
+            <form id="reservaForm" action="https://formspree.io/f/mnnnwqre" method="POST">
                 <label for="nome">Nome:</label>
                 <input type="text" id="nome" name="nome" required>
 
@@ -187,8 +174,25 @@
             </form>
         </section>
         <section>
+            <h2>Testemunhos de Clientes</h2>
+            <div class="testemunhos">
+                <article class="testemunho">
+                    <p>"A minha viagem a Roma com a Pink Ravioli foi inesquecível! O atendimento foi impecável, e os guias locais realmente fizeram a diferença. Recomendo a todos!"</p>
+                    <footer>- João Silva</footer>
+                </article>
+                <article class="testemunho">
+                    <p>"A experiência de viajar com a Pink Ravioli foi incrível. Fui para Veneza e todos os detalhes da viagem foram pensados com carinho. Voltarei, sem dúvida!"</p>
+                    <footer>- Maria Ferreira</footer>
+                </article>
+                <article class="testemunho">
+                    <p>"A organização foi fantástica! Desde o momento da reserva até a nossa volta, tudo foi perfeito. Uma viagem para recordar para sempre!"</p>
+                    <footer>- Ana Costa</footer>
+                </article>
+            </div>
+        </section>        
+        <section>
             <h2>Inscreva-se na nossa Newsletter</h2>
-            <form id="newsletterForm" method="post">
+            <form id="newsletterForm" action="https://formspree.io/f/movvrqzn" method="POST" action="">
                 <label for="nomeNewsletter">Nome:</label>
                 <input type="text" id="nomeNewsletter" name="nomeNewsletter" required>
 
@@ -209,6 +213,8 @@
             <p>&copy; 2025 Pink Ravioli. Todos os direitos reservados.</p>
         </section>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>

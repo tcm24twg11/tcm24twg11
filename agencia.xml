@@ -14,7 +14,7 @@
             <nome>Roma</nome>
             <descricao>A Cidade Eterna oferece uma mistura única de história antiga e vida moderna.
                 Visite o Coliseu, o Fórum Romano, a Capela Sistina e o Panteão.</descricao>
-            <preco>800.00</preco>
+            <preco>399.00</preco>
             <monumento>Coliseu</monumento>
             <monumento>Fórum Romano</monumento>
             <monumento>Capela Sistina</monumento>
@@ -38,7 +38,7 @@
             <nome>Florença</nome>
             <descricao>Berço do Renascimento, Florença encanta com a sua arte, arquitetura e
                 atmosfera romântica. Explore a Galeria Uffizi e a Ponte Vecchio.</descricao>
-            <preco>850.00</preco>
+            <preco>449.00</preco>
             <monumento>Galeria Uffizi</monumento>
             <monumento>Ponte Vecchio</monumento>
             <monumento>Catedral de Santa Maria del Fiore</monumento>
@@ -60,7 +60,7 @@
             <nome>Veneza</nome>
             <descricao>Com os seus canais românticos e arquitetura única, Veneza é um destino de
                 sonho. Visite a Praça de São Marcos e faça um passeio de gôndola.</descricao>
-            <preco>925.00</preco>
+            <preco>499.00</preco>
             <monumento>Praça de São Marcos</monumento>
             <monumento>Ponte de Rialto</monumento>
             <atv_exclusivas>
@@ -82,14 +82,19 @@
 
     <testemunhos>
         <testemunho>
-            <cliente>Maria Silva</cliente>
-            <comentario>A viagem para Roma foi incrível! A atenção aos detalhes e os passeios
-                exclusivos fizeram toda a diferença. Recomendo a Pink Ravioli!</comentario>
+            <cliente>João Silva</cliente>
+            <comentario>A minha viagem a Roma com a Pink Ravioli foi inesquecível! O atendimento foi
+                impecável, e os guias locais realmente fizeram a diferença. Recomendo a todos!</comentario>
         </testemunho>
         <testemunho>
-            <cliente>João Pereira</cliente>
-            <comentario>Florença foi uma experiência inesquecível. A guia local foi fantástica e as
-                atividades personalizadas tornaram a viagem única.</comentario>
+            <cliente>Maria Ferreira</cliente>
+            <comentario>A experiência de viajar com a Pink Ravioli foi incrível. Fui para Veneza e
+                todos os detalhes da viagem foram pensados com carinho. Voltarei, sem dúvida!</comentario>
+        </testemunho>
+        <testemunho>
+            <cliente>Martim Barrote</cliente>
+            <comentario>A organização foi fantástica! Desde o momento da reserva até a nossa volta,
+                tudo foi perfeito. Uma viagem para recordar para sempre!</comentario>
         </testemunho>
     </testemunhos>
 

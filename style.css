@@ -135,7 +135,7 @@ section p {
     background: #ff80ab;
 }
 
-#detalhes-plano, #passeio, #planoveneza, #planogondola, #florenca, #galeria {
+#planoroma, #planoforum, #planoveneza, #planogondola, #planoflorenca, #planogaleria {
     display: flex;
     align-items: flex-start;
     gap: 15px;
@@ -144,7 +144,7 @@ section p {
     line-height: 1.6;
 }
 
-#detalhes-plano::before, #passeio::before, #planoveneza::before, #planogondola::before, #florenca::before, #galeria::before {
+#planoroma::before, #planoforum::before, #planoveneza::before, #planogondola::before, #planoflorenca::before, #planogaleria::before {
     content: "";
     display: block;
     width: 360px;
@@ -154,12 +154,12 @@ section p {
     border-radius: 8px;
 }
 
-#detalhes-plano::before { background-image: url('coliseu-roma.png'); }
-#passeio::before { background-image: url('forum-romano.png'); }
+#planoroma::before { background-image: url('coliseu-roma.png'); }
+#planoforum::before { background-image: url('forum-romano.png'); }
 #planoveneza::before { background-image: url('imagem-veneza.png'); }
 #planogondola::before { background-image: url('gondola-veneza.png'); }
-#florenca::before { background-image: url('florenca-piazza-del-duomo.png'); }
-#galeria::before { background-image: url('galeria-uffizi.png'); width: 360px; height: 360px; }
+#planoflorenca::before { background-image: url('florenca-piazza-del-duomo.png'); }
+#planogaleria::before { background-image: url('galeria-uffizi.png'); width: 360px; height: 360px; }
 
 #copy {
     text-align: center;
@@ -246,6 +246,27 @@ footer p {
     margin: 5px 0;
 }
 
+.testemunhos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.testemunho {
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #ff80ab;
+    text-align: center;
+}
+
+.testemunho footer {
+    background-color: #ff80ab;
+    font-style: italic;
+    margin-top: 10px;
+    color: #fff;
+}
+
 @media (min-width: 768px) {
     header h1 {
         font-size: 45px;
@@ -290,7 +311,7 @@ footer p {
     }
 
     nav {
-        margin-top: 144px;
+        margin-top: 143px;
     }
 
     nav ul {
