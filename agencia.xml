@@ -14,7 +14,7 @@
             <nome>Roma</nome>
             <descricao>A Cidade Eterna oferece uma mistura única de história antiga e vida moderna.
                 Visite o Coliseu, o Fórum Romano, a Capela Sistina e o Panteão.</descricao>
-            <preco>1200.00</preco>
+            <preco>800.00</preco>
             <monumento>Coliseu</monumento>
             <monumento>Fórum Romano</monumento>
             <monumento>Capela Sistina</monumento>
@@ -38,7 +38,7 @@
             <nome>Florença</nome>
             <descricao>Berço do Renascimento, Florença encanta com a sua arte, arquitetura e
                 atmosfera romântica. Explore a Galeria Uffizi e a Ponte Vecchio.</descricao>
-            <preco>1400.00</preco>
+            <preco>850.00</preco>
             <monumento>Galeria Uffizi</monumento>
             <monumento>Ponte Vecchio</monumento>
             <monumento>Catedral de Santa Maria del Fiore</monumento>
@@ -60,7 +60,7 @@
             <nome>Veneza</nome>
             <descricao>Com os seus canais românticos e arquitetura única, Veneza é um destino de
                 sonho. Visite a Praça de São Marcos e faça um passeio de gôndola.</descricao>
-            <preco>1500.00</preco>
+            <preco>925.00</preco>
             <monumento>Praça de São Marcos</monumento>
             <monumento>Ponte de Rialto</monumento>
             <atv_exclusivas>

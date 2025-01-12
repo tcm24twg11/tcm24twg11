@@ -4,7 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Pink Ravioli - Agência Turística</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="reserva.js"></script>
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("aph3RPLN3fBu3qbOi");
+   })();
+</script>
 </head>
 
 <body>
@@ -120,6 +133,25 @@
             </div>
         </section>
         <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="4">
+                           <h1 id="tabela">Tabela de preços</h1> 
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>Destino</th>
+                        <th>Descrição</th>
+                        <th>Preço</th>
+                      </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </section>
+        <section>
             <h2 id="reservaForm">Reserve a sua viagem</h2>
             <form method="post">
                 <label for="nome">Nome:</label>
@@ -177,10 +209,6 @@
             <p>&copy; 2025 Pink Ravioli. Todos os direitos reservados.</p>
         </section>
     </footer>
-
-    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-    <script src="script.js"></script>
-
 </body>
 
 </html>
