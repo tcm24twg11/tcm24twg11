@@ -253,7 +253,11 @@ form button:hover {
     background: #ff80ab;
 }
 
-table h1:hover {
+#tabela {
+    font-size: 25px;
+}
+
+#tabela:hover {
     cursor: pointer;
 }
 

@@ -10,7 +10,7 @@
 <body>
     <div>
         <header>
-            <img src="pink_ravioli1.png" alt="Pink Ravioli" width="485px">
+            <img src="pink_ravioli1.png" alt="Pink Ravioli" width="485">
             <p>A sua porta para viagens inesquecíveis pela Itália!</p>
         </header>
         <nav>
@@ -52,13 +52,13 @@
 
             <h2>Porquê Escolher a Pink Ravioli?</h2>
             <dl>
-                <dh><strong>Experiência e Conhecimento Local:</strong></dh>
+                <dt><strong>Experiência e Conhecimento Local:</strong></dt>
                 <dd>Temos uma equipa experiente e apaixonada pela Itália, com conhecimento profundo das cidades que
                     oferecemos.</dd>
-                <dh><strong>Viagens Personalizadas:</strong></dh>
+                <dt><strong>Viagens Personalizadas:</strong></dt>
                 <dd>Cada itinerário é criado de acordo com os seus interesses, seja história, arte, gastronomia ou
                     cultura.</dd>
-                <dh><strong>Atendimento Premium:</strong></dh>
+                <dt><strong>Atendimento Premium:</strong></dt>
                 <dd>
                     Oferecemos suporte dedicado antes, durante e após a sua viagem, para garantir a sua total
                     satisfação:
@@ -68,7 +68,7 @@
                         <li><strong>Acompanhamento pós-viagem:</strong> recolha de feedback e sugestões.</li>
                     </ul>
                 </dd>
-                <dh id="li"><strong>Parceiros Locais de Confiança:</strong></dh>
+                <dt id="li"><strong>Parceiros Locais de Confiança:</strong></dt>
                 <dd>
                     Trabalhamos com guias e fornecedores locais que compartilham a nossa paixão pela
                     Itália e pela excelência no atendimento ao cliente:
@@ -124,12 +124,11 @@
             </div>
         </section>
         <section>
+            <h2>Clique na Tabela para Visualizar</h2>
             <table>
                 <thead>
                     <tr>
-                        <th colspan="4">
-                            <h1 id="tabela">Tabela de preços</h1>
-                        </th>
+                        <th id="tabela" colspan="3">Tabela de Preços</th>
                     </tr>
                     <tr>
                         <th>Destino</th>
@@ -159,6 +158,7 @@
 
                 <label for="destino">Destino:</label>
                 <select id="destino" name="destino" required>
+                    <option value="" disabled selected>Selecione uma opção</option>
                     <option value="roma">Roma</option>
                     <option value="florenca">Florença</option>
                     <option value="veneza">Veneza</option>
@@ -180,26 +180,26 @@
         <section>
             <h2>Testemunhos de Clientes</h2>
             <div class="testemunhos">
-                <article class="testemunho">
+                <div class="testemunho">
                     <p>"A minha viagem a Roma com a Pink Ravioli foi inesquecível! O atendimento foi impecável, e os
                         guias locais realmente fizeram a diferença. Recomendo a todos!"</p>
                     <footer>- João Silva</footer>
-                </article>
-                <article class="testemunho">
+                </div>
+                <div class="testemunho">
                     <p>"A experiência de viajar com a Pink Ravioli foi incrível. Fui para Veneza e todos os detalhes da
                         viagem foram pensados com carinho. Voltarei, sem dúvida!"</p>
                     <footer>- Maria Ferreira</footer>
-                </article>
-                <article class="testemunho">
+                </div>
+                <div class="testemunho">
                     <p>"A organização foi fantástica! Desde o momento da reserva até a nossa volta, tudo foi perfeito.
                         Uma viagem para recordar para sempre!"</p>
                     <footer>- Martim Costa</footer>
-                </article>
+                </div>
             </div>
         </section>
         <section>
             <h2>Inscreva-se na nossa Newsletter</h2>
-            <form id="newsletterForm" action="https://formspree.io/f/movvrqzn" method="POST" action="">
+            <form id="newsletterForm" action="https://formspree.io/f/movvrqzn" method="POST">
                 <label for="nomeNewsletter">Nome:</label>
                 <input type="text" id="nomeNewsletter" name="nomeNewsletter" required>
 
@@ -215,10 +215,9 @@
             <h3 id="contactos">Contactos</h3>
             <p>Email: raviolipink@gmail.com</p>
             <p>Telefone: +351 963 456 789</p>
-        </section>
-        <section>
             <p>&copy; 2025 Pink Ravioli. Todos os direitos reservados.</p>
         </section>
+
     </footer>
 
     <script src="script.js"></script>
