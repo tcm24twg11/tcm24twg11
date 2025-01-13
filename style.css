@@ -140,7 +140,8 @@ section p {
 #planoveneza,
 #planogondola,
 #planoflorenca,
-#planogaleria {
+#planogaleria,
+#logo {
     display: flex;
     align-items: flex-start;
     gap: 15px;
@@ -162,6 +163,20 @@ section p {
     background-size: cover;
     background-position: center;
     border-radius: 8px;
+}
+
+#logo::before {
+    content: "";
+    display: block;
+    width: 600px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+}
+
+#logo::before {
+    background-image: url('pink_ravioli2.png');
 }
 
 #planoroma::before {
