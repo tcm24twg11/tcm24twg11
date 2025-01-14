@@ -1,35 +1,61 @@
-My example work assignment Title
-Repository to host the project developed for 'Tecnologias Web', a fisrt year subject at Universidade da Maia. Developed by Group 11 : @h3xgxrl, @LaraPereira e @MiguelTavares.
+# My Example Work Assignment Title
 
-Repository organization
-- Folder
-- Folder
+Repositório para alojar o projeto desenvolvido para a disciplina **'Tecnologias Web'**, do primeiro ano na **Universidade da Maia**.  
+Desenvolvido pelo **Grupo 11**: [@h3xgxrl](#), [@LaraPereira](#) e [@MiguelTavares](#).
 
-Gallery
+---
 
+## Repository Organization
 
-Technologies
-XML
-HTML5 + CSS3
-Javascript
-XSD
+- **Folder**
+- **Folder**
 
-Formspree
+---
 
-Project presentation
-Chapter 1: 
-User Interface
-Chapter 2: 
-Product
-Chapter 3: Product
-Presentation
-Chapter 4: Presentation
-Team
-Catarina Morais
-Lara Pereira
-Miguel Tavares
-About
-Template de exemplo de relatório e sources para a disciplina de TW 2020/2021
+## Gallery
+
+*Adicionar imagens ou descrição da galeria aqui.*
+
+---
+
+## Technologies
+
+- **XML**
+- **HTML5 + CSS3**
+- **JavaScript**
+- **XSD**
+- **Formspree**
+
+---
+
+## Project Presentation
+
+### Chapter 1:  
+**User Interface**
+
+### Chapter 2:  
+**Product**
+
+### Chapter 3:  
+**Product Presentation**
+
+### Chapter 4:  
+**Presentation**
+
+---
+
+## Team
+
+- **Catarina Morais**  
+- **Lara Pereira**  
+- **Miguel Tavares**  
+
+---
+
+## About
+
+Projeto realizado no âmbito da disciplina de **TW 2024/2025**.
+
 
 Resources
  Readme
