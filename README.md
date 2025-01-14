@@ -14,15 +14,23 @@ Desenvolvido pelo **Grupo 11**: [@h3xgxrl](#), [@LaraPereira](#) e [@MiguelTavar
 
 ## Gallery
 
-![Imagem do Projeto](imagens/projeto.png)
-![Imagem do Projeto](imagens/projeto.png)
-![Imagem do Projeto](imagens/projeto.png)
-![Imagem do Projeto](imagens/projeto.png)
-![Imagem do Projeto](imagens/projeto.png)
-![Imagem do Projeto](imagens/projeto.png)
-![Imagem do Projeto](imagens/projeto.png)
-![Imagem do Projeto](imagens/projeto.png)
-![Imagem do Projeto](imagens/projeto.png)
+![Imagem do Projeto](imagens/1.png)
+![Imagem do Projeto](imagens/2.png)
+![Imagem do Projeto](imagens/3.png)
+![Imagem do Projeto](imagens/4.png)
+![Imagem do Projeto](imagens/5.png)
+![Imagem do Projeto](imagens/6.png)
+![Imagem do Projeto](imagens/7.png)
+![Imagem do Projeto](imagens/8.png)
+![Imagem do Projeto](imagens/9.png)
+![Imagem do Projeto](imagens/10.png)
+![Imagem do Projeto](imagens/11.png)
+![Imagem do Projeto](imagens/12.png)
+![Imagem do Projeto](imagens/13.png)
+![Imagem do Projeto](imagens/14.png)
+![Imagem do Projeto](imagens/15.png)
+![Imagem do Projeto](imagens/16.png)
+![Imagem do Projeto](imagens/17.png)
 
 ---
 
