@@ -7,8 +7,8 @@ Desenvolvido pelo **Grupo 11**: [@h3xgxrl](#), [@LaraPereira](#) e [@MiguelTavar
 
 ## Repository Organization
 
-- **Folder** [@h3xgxrl](https://github.com/h3xgxrl)
-- **Folder** [@h3xgxrl](https://github.com/h3xgxrl)
+- **Folder** [srcfolder](https://github.com/src)
+- **Folder** [docfolder](https://github.com/doc)
 
 ---
 
