@@ -8,7 +8,7 @@ Desenvolvido pelo **Grupo 11**: [@h3xgxrl](#), [@LaraPereira](#) e [@MiguelTavar
 ## Repository Organization
 
 - **Pasta do Projeto** [srcfolder](src)
-- **Pasta do Relatório** [docfolder](https://github.com/doc)
+- **Pasta do Relatório** [docfolder](Relatorio_TW/Relatório)
 
 ---
 
