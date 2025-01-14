@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Reserve uma Viagem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Reserva uma Viagem</h1>
+        <p>Descubra a Cidade Eterna com a Pink Ravioli!</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="roma.html">Roma</a></li>
+            <li><a href="florenca.html">Florença</a></li>
+            <li><a href="veneza.html">Veneza</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Reserve a sua viagem</h2>
+            <form id="reservaForm" action="https://formspree.io/f/mnnnwqre" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" id="sobrenome" name="sobrenome" required>
+
+                <label for="telemovel">Contacto Telefónico:</label>
+                <input type="tel" id="telemovel" name="telemovel" pattern="[0-9]{9}" required>
+
+                <label for="email-reserva">E-mail:</label>
+                <input type="email" id="email-reserva" name="email_reserva" required>
+
+                <label for="destino">Destino:</label>
+                <select id="destino" name="destino" required>
+                    <option value="" disabled selected>Selecione uma opção</option>
+                    <option value="roma">Roma</option>
+                    <option value="florenca">Florença</option>
+                    <option value="veneza">Veneza</option>
+                </select>
+
+                <label for="data">Data de Partida:</label>
+                <input type="date" id="data" name="data" required>
+
+                <label for="pessoas">Número de Pessoas:</label>
+                <input type="number" id="pessoas" name="pessoas" min="1" required>
+
+                <label for="comentarios">Comentários ou Requisitos Especiais:</label>
+                <textarea id="comentarios" name="comentarios" rows="3"
+                    placeholder="Informe-nos sobre necessidades especiais, preferências ou perguntas."></textarea>
+
+                <button type="submit">Reservar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Pink Ravioli &copy; 2025. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
