@@ -46,17 +46,17 @@ Desenvolvido pelo **Grupo 11**: [@h3xgxrl](#), [@LaraPereira](#) e [@MiguelTavar
 
 ## Project Presentation
 
-### Chapter 1:  Introdução
+### Chapter 1:  
+**Introdução**
+
+### Chapter 2:  
 **User Interface**
 
-### Chapter 2:  User Interface
-**Product**
+### Chapter 3:  
+**Apresentação do Website**
 
-### Chapter 3:  Apresentação do Website
-**Product Presentation**
-
-### Chapter 4:  Conclusão e Reflexão
-**Presentation**
+### Chapter 4:  
+**Conclusão e Reflexão**
 
 ---
 
