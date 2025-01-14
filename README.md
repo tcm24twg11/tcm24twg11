@@ -72,23 +72,3 @@ Desenvolvido pelo **Grupo 11**: [@h3xgxrl](#), [@LaraPereira](#) e [@MiguelTavar
 
 Projeto realizado no âmbito da disciplina de **TW 2024/2025**.
 
-
-Resources
- Readme
-License
- CC0-1.0 license
- Activity
- Custom properties
-Stars
- 0 stars
-Watchers
- 0 watching
-Forks
- 2 forks
-Report repository
-Releases
-No releases published
-Packages
-No packages published
-Footer
-
