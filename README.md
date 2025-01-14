@@ -7,14 +7,22 @@ Desenvolvido pelo **Grupo 11**: [@h3xgxrl](#), [@LaraPereira](#) e [@MiguelTavar
 
 ## Repository Organization
 
-- **Folder**
-- **Folder**
+- **Folder** [@h3xgxrl](https://github.com/h3xgxrl)
+- **Folder** [@h3xgxrl](https://github.com/h3xgxrl)
 
 ---
 
 ## Gallery
 
-*Adicionar imagens ou descrição da galeria aqui.*
+![Imagem do Projeto](imagens/projeto.png)
+![Imagem do Projeto](imagens/projeto.png)
+![Imagem do Projeto](imagens/projeto.png)
+![Imagem do Projeto](imagens/projeto.png)
+![Imagem do Projeto](imagens/projeto.png)
+![Imagem do Projeto](imagens/projeto.png)
+![Imagem do Projeto](imagens/projeto.png)
+![Imagem do Projeto](imagens/projeto.png)
+![Imagem do Projeto](imagens/projeto.png)
 
 ---
 
